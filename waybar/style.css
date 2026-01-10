@@ -1,0 +1,129 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 22px;
+  min-height: 0;
+}
+window#waybar {
+  background: rgba(21, 18, 27, 0);
+}
+
+#workspaces button {
+  padding: 5px;
+  color: #b4befe;
+  margin-right: 5px;
+}
+#workspaces button:hover {
+  color: #f38ba8;
+  background: #313244;
+  border-radius: 15px;
+}
+#workspaces button.active {
+  color: #94e2d5;
+}
+
+#workspaces {
+  background: #313244;
+  border-radius: 15px;
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+#network {
+  background: #313244;
+  color: #f9e2af;
+  border-radius: 15px;
+  margin-right: 10px;
+  padding: 0 15px;
+  border-right: 0px;
+
+}
+
+#clock {
+  background: #313244;  
+  color: #fab387;
+  border-radius: 15px;
+  padding: 0 15px;
+}
+
+#bluetooth {
+  background: #313244; 
+  color: #89b4fa;
+  border-radius: 10px;
+  margin-right: 0px;
+  padding: 0 5px;
+}
+#idle_inhibitor {
+  background: #313244; 
+  color: #89b4fa;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 0 5px;
+}
+
+#battery {
+  background: #313244; 
+  color: #fab387;
+  border-radius: 15px;
+  margin-right: 0px;
+  padding: 0 15px;
+  border-left: 0px;
+}
+#battery.critical:not(.charging) {
+  color: #f38ba8;
+}
+
+#temperature {
+  border-radius: 10px;
+  background: #313244;  
+  color: #fab387;
+  padding: 0 15px;
+}
+#temperature.critical {
+  color: #eba0ac;
+}
+
+#wireplumber {
+  background: #313244; 
+  color: #89b4fa;
+  border-radius: 10px;
+  margin-right: 0px;
+  padding: 0 5px;
+}
+
+#memory {
+  border-radius: 10px;
+  background: #313244;  
+  color: #fab387;
+  padding: 0 15px;
+}
+
+#cpu {
+  border-radius: 10px;
+  background: #313244;  
+  color: #fab387;
+  padding: 0 15px;
+}
+
+#custom-xournal {
+  border-radius: 10px;
+  background: #313244;  
+  color: #FA81A2;
+  padding: 0 15px;
+}
+#custom-firefox {
+  border-radius: 10px;
+  background: #313244;  
+  color: #FA81A2;
+  padding: 0 15px;
+}
+
+tooltip {
+  background: #313040;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+}

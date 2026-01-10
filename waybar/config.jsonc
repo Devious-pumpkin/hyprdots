@@ -1,0 +1,29 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "bottom",
+    "position": "top", 
+    "spacing": 8,
+    "modules-left": [
+        "clock",
+        "network",
+        "bluetooth",
+	    "wireplumber",
+        "idle_inhibitor"
+        ],
+    "modules-right": [
+        "cpu",
+        "memory",
+        "temperature",
+        "battery"
+    ],
+    "modules-center": [
+        "custom/firefox",
+        "hyprland/workspaces",
+        "custom/xournal"
+    ],
+    //Modules configuration
+
+    "include": [
+		"~/.config/waybar/modules.json"
+	]
+}
