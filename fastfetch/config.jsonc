@@ -36,7 +36,12 @@
         },
         {
             "type": "memory",
-            "key": "└ └󰍛 Memory",
+            "key": "│ ├󰍛 Memory",
+            "keyColor": "green"
+        },
+        {
+            "type": "host",
+            "key": "└ └󰍛 Host",
             "keyColor": "green"
         },
         {
