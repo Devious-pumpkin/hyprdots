@@ -86,7 +86,7 @@
             } 
     },
     "custom/xournal": {
-        "format": "󱓩",
+        "format": "󱓩 ",
         "tooltip": false,
         "on-click": "xournalpp"
     },

@@ -7,9 +7,9 @@
         "clock",
         "network",
         "bluetooth",
-	    "wireplumber",
+	      "wireplumber",
         "idle_inhibitor"
-        ],
+    ],
     "modules-right": [
         "cpu",
         "memory",
