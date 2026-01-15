@@ -77,14 +77,6 @@
         "format-connected-battery": ": {device_battery_percentage}%",
         "tooltip-format": "{device_alias}"
     },
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "tooltip": false,
-        "format-icons": {
-            "activated": "󰅶",
-            "deactivated": "󰾪"
-            } 
-    },
     "custom/xournal": {
         "format": "󱓩 ",
         "tooltip": false,

@@ -55,13 +55,6 @@ window#waybar {
   margin-right: 0px;
   padding: 0 5px;
 }
-#idle_inhibitor {
-  background: #313244; 
-  color: #89b4fa;
-  border-radius: 10px;
-  margin-right: 10px;
-  padding: 0 5px;
-}
 
 #battery {
   background: #313244; 
