@@ -102,7 +102,7 @@ window#waybar {
 
 #custom-xournal {
   border-radius: 10px;
-  background: #313244;  
+  background: #313244;
   color: #FA81A2;
   padding: 0 15px;
 }
@@ -112,7 +112,13 @@ window#waybar {
   color: #FA81A2;
   padding: 0 15px;
 }
-
+#custom-idlestate {
+  background: #313244; 
+  color: #89b4fa;
+  border-radius: 10px;
+  margin-right: 0px;
+  padding: 0 5px;
+}
 tooltip {
   background: #313040;
   border-radius: 10px;

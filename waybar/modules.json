@@ -78,7 +78,7 @@
         "tooltip-format": "{device_alias}"
     },
     "custom/xournal": {
-        "format": "󱓩 ",
+        "format": "󱓩",
         "tooltip": false,
         "on-click": "xournalpp"
     },
@@ -86,5 +86,12 @@
         "format": "",
         "tooltip": false,
         "on-click": "firefox"
+    },
+    "custom/idlestate": {
+        "exec": "~/.config/waybar/scripts/get-idle-state.sh",
+        "tooltip": false,
+        "on-click": "idle-toggle",
+        "format": "{}",
+        "interval": 1
     }
 }
