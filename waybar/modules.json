@@ -32,23 +32,6 @@
         "format": " {temperatureC}°C",
         "tooltip": false
     },
-    "battery": {
-        "full-at": 100,
-        "states": {
-            "critical": 10,
-            "low": 30,
-            "medium": 60,
-            "high": 80
-        },
-        "format": "  {capacity}%",
-        "format-charging": "󰂄  {capacity}%",
-        "format-critical": " {capacity}%",
-        "format-high": " {capacity}%",
-        "format-medium": " {capacity}%",
-        "format-low": " {capacity}%",
-        "tooltip-format": "Cycles: {cycles}, Health: {health}",
-        "tooltip": true
-    },
     "clock": {
         "format": "{:%H:%M | %e %b} ",
         "tooltip": false
@@ -76,22 +59,5 @@
         "format-connected": "",
         "format-connected-battery": ": {device_battery_percentage}%",
         "tooltip-format": "{device_alias}"
-    },
-    "custom/xournal": {
-        "format": "󱓩",
-        "tooltip": false,
-        "on-click": "xournalpp"
-    },
-    "custom/firefox": {
-        "format": "",
-        "tooltip": false,
-        "on-click": "firefox"
-    },
-    "custom/idlestate": {
-        "exec": "~/.config/waybar/scripts/get-idle-state.sh",
-        "tooltip": false,
-        "on-click": "idle-toggle",
-        "format": "{}",
-        "interval": 1
     }
 }

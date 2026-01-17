@@ -12,7 +12,3 @@ alias autoremove='sudo pacman -Rns $(pacman -Qdtq) 2>/dev/null || echo "Nothing 
 alias imdonneywiththefunny='poweroff'
 alias shadowsoc-up='sudo sslocal -c ~/.config/shadowsocket/config.json'
 alias go-go-sshagent='eval $(ssh-agent) && ssh-add ~/.ssh/gitpub'
-
-if uwsm check may-start; then
-  exec uwsm start hyprland.desktop
-fi

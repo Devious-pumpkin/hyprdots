@@ -7,19 +7,15 @@
         "clock",
         "network",
         "bluetooth",
-	      "wireplumber",
-        "custom/idlestate"
+	      "wireplumber"
     ],
     "modules-right": [
         "cpu",
         "memory",
-        "temperature",
-        "battery"
+        "temperature"
     ],
     "modules-center": [
-        "custom/firefox",
-        "hyprland/workspaces",
-        "custom/xournal"
+        "hyprland/workspaces"
     ],
     //Modules configuration
 
