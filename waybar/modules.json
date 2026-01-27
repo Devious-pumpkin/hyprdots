@@ -77,6 +77,15 @@
         "format-connected-battery": ": {device_battery_percentage}%",
         "tooltip-format": "{device_alias}"
     },
+    "disk": {
+      "interval": 30,
+      "format": " {percentage_free}%",
+    },
+    "custom/launcher": {
+        "format": "...",
+        "on-click": "fuzzel",
+        "tooltip": "false"
+    },
     "custom/xournal": {
         "format": "󱓩",
         "tooltip": false,

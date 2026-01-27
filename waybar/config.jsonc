@@ -4,6 +4,7 @@
     "position": "top", 
     "spacing": 8,
     "modules-left": [
+        "custom/launcher",
         "clock",
         "network",
         "bluetooth",
@@ -13,6 +14,7 @@
     "modules-right": [
         "cpu",
         "memory",
+        "disk",
         "temperature",
         "battery"
     ],

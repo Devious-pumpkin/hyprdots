@@ -99,7 +99,12 @@ window#waybar {
   color: #fab387;
   padding: 0 15px;
 }
-
+#disk {
+  border-radius: 10px;
+  background: #313244;  
+  color: #fab387;
+  padding: 0 15px;
+}
 #custom-xournal {
   border-radius: 10px;
   background: #313244;
@@ -115,6 +120,13 @@ window#waybar {
 #custom-idlestate {
   background: #313244; 
   color: #89b4fa;
+  border-radius: 10px;
+  margin-right: 0px;
+  padding: 0 5px;
+}
+#custom-launcher {
+  background: #313244; 
+  color: #FA81A2;
   border-radius: 10px;
   margin-right: 0px;
   padding: 0 5px;
