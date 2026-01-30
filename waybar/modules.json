@@ -1,10 +1,27 @@
 {
     "hyprland/workspaces": {
         "active-only": false,
-	    "disable-scroll": true,
-        "all-outputs": false,
+	      "disable-scroll": true,
+        "all-outputs": true,
         "warp-on-scroll": false,
-        "format": "{name}"
+        "window-rewrite": {
+          "class<librewolf>": "󰈹",
+          "class<firefox>": "󰈹",
+          "class<kitty>": "",
+          "class<spotify>": "",
+          "class<kitty> title<cava>": "󱑽",
+          "class<kitty> title<nvim.*>": "",
+          "class<kitty> title<ssh.*>": "󰣀",
+          "class<kitty> title<man.*>": "󰂽",
+          "class<org.wireshark.Wireshark>": "󱙳",
+          "class<blender>": "󰂫",
+          "class<vlc>": "󰕼",
+          "class<org.pwmt.zathura>": "",
+          "class<steam>": "",
+          "class<virt-manager>": ""
+        },
+        "format": "{name}: {windows}",
+        "format-window-separator": " - "
     },
     "network": {
         "format-wifi": "󰤨  {essid} ({signalStrength}%)",
@@ -24,13 +41,10 @@
         "format": "  {}%",
 	    "tooltip": false
     },
-    "temperature": {
-        "interval": 10,
-        "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon4/temp1_input",
-        "critical-threshold": 80,
-        "format-critical": " {temperatureC}",
-        "format": " {temperatureC}°C",
-        "tooltip": false
+    "disk": {
+      "path": "/home/",
+      "tooltip": false,
+      "format": "󰑹  {percentage_free}%"
     },
     "clock": {
         "format": "{:%H:%M | %e %b} ",

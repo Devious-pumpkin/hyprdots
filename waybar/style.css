@@ -40,7 +40,6 @@ window#waybar {
   border-right: 0px;
 
 }
-
 #clock {
   background: #313244;  
   color: #fab387;
@@ -54,15 +53,6 @@ window#waybar {
   border-radius: 10px;
   margin-right: 0px;
   padding: 0 5px;
-}
-#temperature {
-  border-radius: 10px;
-  background: #313244;  
-  color: #fab387;
-  padding: 0 15px;
-}
-#temperature.critical {
-  color: #eba0ac;
 }
 #wireplumber {
   background: #313244; 
@@ -78,6 +68,12 @@ window#waybar {
   padding: 0 15px;
 }
 #cpu {
+  border-radius: 10px;
+  background: #313244;  
+  color: #fab387;
+  padding: 0 15px;
+}
+#disk {
   border-radius: 10px;
   background: #313244;  
   color: #fab387;

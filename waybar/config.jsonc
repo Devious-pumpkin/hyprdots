@@ -1,7 +1,8 @@
 // -*- mode: jsonc -*-
 {
     "layer": "bottom",
-    "position": "top", 
+    "position": "top",
+    "output": "DP-2",
     "spacing": 8,
     "modules-left": [
         "clock",
@@ -12,7 +13,7 @@
     "modules-right": [
         "cpu",
         "memory",
-        "temperature"
+        "disk"
     ],
     "modules-center": [
         "hyprland/workspaces"
