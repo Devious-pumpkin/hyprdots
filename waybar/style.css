@@ -53,7 +53,7 @@ window#waybar {
   color: #89b4fa;
   border-radius: 10px;
   margin-right: 0px;
-  padding: 0 5px;
+  padding: 0 9px;
 }
 
 #battery {
@@ -83,7 +83,7 @@ window#waybar {
   color: #89b4fa;
   border-radius: 10px;
   margin-right: 0px;
-  padding: 0 5px;
+  padding: 0 9px;
 }
 
 #memory {
@@ -122,7 +122,7 @@ window#waybar {
   color: #89b4fa;
   border-radius: 10px;
   margin-right: 0px;
-  padding: 0 5px;
+  padding: 0 9px;
 }
 #custom-launcher {
   background: #313244; 

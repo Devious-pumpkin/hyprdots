@@ -50,7 +50,7 @@
         "tooltip": true
     },
     "clock": {
-        "format": "{:%H:%M | %e %b} ",
+        "format": "{:%H:%M | %e %b | %W} ",
         "tooltip": false
     },
     "wireplumber": {
